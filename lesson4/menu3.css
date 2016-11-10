@@ -1,0 +1,11 @@
+* {
+	text-align: center;
+}
+ul	{
+	list-style: none
+}
+ul li {
+	display: inline-block;
+	float: bottom;
+	border: 50px;
+}

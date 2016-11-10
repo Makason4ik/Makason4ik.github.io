@@ -1,0 +1,9 @@
+a:link[href$=".ru"] {
+	color: #f70;
+}
+a:link[href$=".com"] {
+	color:  #666;
+}
+a:link[target="_blank"]:after {
+	content: &#x21f1;
+}
