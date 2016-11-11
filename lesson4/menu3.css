@@ -1,11 +1,42 @@
 * {
+	display: inline;
+
+
+	
+
+}
+ul li	{
+	list-style: none; 
+	float: left;
 	text-align: center;
+	font-size: 10px;
+    font-family: Economica;
+
+
+
+	
+
+		
 }
-ul	{
-	list-style: none
+ul.number li	{
+	height: 20px;
+	width: 20px;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	background-color: #99F;
+	color: white;
+
 }
-ul li {
-	display: inline-block;
-	float: bottom;
-	border: 50px;
+
+ul.next li {
+	padding: 5px;
+	}
+ul.prev li {
+	padding: 5px;
 }
+
+ul li:hover {
+	background-color: gray;
+}
+
