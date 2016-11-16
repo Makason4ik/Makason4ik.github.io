@@ -1,0 +1,61 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+    width: 100%;
+    list-style: none;
+    position: relative;
+   
+    
+}
+
+.menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+     background: #f3e;
+   
+}
+
+.menu li a {
+    padding: 8px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background: gray repeat-x;
+}
+
+.menu li a:hover {
+    color: beige;
+}
+
+.menu li span {
+    float: left;
+   
+    padding: 8px 0;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    
+    max-width: 876px;
+    width: 100%;
+    background: #1376c9;
+    color: #a09f9f;
+}
+
+.menu li a:hover span {
+    display: block;
+}
+
+.menu li span a {
+    color: burlywood;
+    display: inline;
+}
+
+.menu li span a:hover {
+    color: blue;
+    text-decoration: none;
+}
