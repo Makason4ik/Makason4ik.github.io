@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1400px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    height: 116px;
+}
+
+header div.company_name {
+    color: #3070a8;
+    font-size: 36px;
+    float: left;
+    margin-left: 189px;
+    margin-top: 46px;
+    font-weight: 700;
+}
+
+header div.company_name span {
+    color: #ee8129;
+    font-size: 36px;
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+div.menu ul {
+    list-style: none;
+    float: right;
+    margin-top: 70px;
+    margin-right: 186px;
+    font-size: 18px;
+}
+
+div.menu ul li {
+    display: inline-block;
+    color: #989898;
+    padding: 0 12px;
+    text-transform: uppercase;
+}
+
+div.menu ul li:hover {
+    color: #3070a8;
+    border-bottom: 4px solid #3070a8;
+    padding-bottom: 20px;
+}
+
+.skills {
+    width: 1400px;
+    height: 585px;
+    background: url(images/skills.png);
+    text-align: center;
+}
+
+.responsive {
+    font-size: 36px;
+    padding-top: 152px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.responsive span {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p.italy {
+    padding-top: 35px;
+    font: italic 20px / 30px Calibri;
+    color: #ffffff;
+}
+
+input {
+    height: 59px;
+    width: 247px;
+    margin-top: 42px;
+    background-color: rgba(238, 129, 41, 0);
+    color: #ffffff;
+}
+
+.soft {
+      display: inline-block;
+}
+.soft h3 {
+    text-align: center;
+    padding-top: 68px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+div.protect{
+    float: left;
+    padding-top: 78px;
+    text-align: center;
+    padding-left: 275px;
+    
+}
+div.protect span {
+    width: 126px;
+    height: 21px;
+    text-align: center;
+    font-size: 30px;
+    color: #3070a8;
+    text-transform: uppercase;
+}
+div.protect p {
+    width: 304px;
+    height: 111px;
+    text-align: center;
+}
+
+div.alert span{
+    width: 83px;    
+    height: 21px;
+    color: #3070a8;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+div.alert p {
+    
+}
+
+    
+
+
+.lorem {
+    width: 1400px;
+    height: 577px;
+    background: url(images/lorem.png);
+}
+
+.offers {
+    width: 1400px;
+    height: 577px;
+}
+
+.what_client_says {
+    width: 1400px;
+    height: 315px;
+    background: url(images/client.png);
+}
+
+
+/*
+
+
+
+div.review  {
+    width: 100%;
+    height: 315px;
+    background-color: rgba(6, 15, 22, 0.77);
+}
+h3 {
+text-align: center;
+color: #3170a8;
+font: 400 40px / 18px 'Trebuchet MS';
+padding-top: 58px;
+padding-bottom: 51px;
+}
+span.first {
+    color: #ee8129;
+}
+.imageg {
+    float:left;
+    padding-left: 250px;
+    padding-right: 40px;
+}
+.textg {
+    float: left;
+    width: 380px;
+    height: 98px;
+    background-color: #f7f7f7;
+    position: relative;
+   
+    
+}
+
+   
+.imagem {
+    float:left;
+    padding-left: 43px;
+    padding-right: 40px;
+}
+.textm {
+    float: left;
+    width: 380px;
+    height: 98px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+header h4{
+    float: left;
+     margin: 0;
+    color: #3070a8
+        
+}
+-header span {
+    float:right;
+    color: #3070a8;
+}
+-header {
+ overflow: hidden;
+border-bottom: dashed 1px #3070a8;
+    padding: 10px; 
+}
+.inlineg,
+.inlinem {
+    display: inline-block;
+}
+h4:before {
+    content: " - "
+}
+p {
+padding: 5px;
+}
+      
+}
+div.review  {
+    width: 100%;
+    height: 315px;
+    background-color: rgba(6, 15, 22, 0.77);
+}
+h3 {
+text-align: center;
+color: #3170a8;
+font: 400 40px / 18px 'Trebuchet MS';
+padding-top: 58px;
+padding-bottom: 51px;
+}
+span.first {
+    color: #ee8129;
+}
+.imageg {
+    float:left;
+    padding-left: 250px;
+    padding-right: 40px;
+}
+.textg {
+    float: left;
+    width: 380px;
+    height: 98px;
+    background-color: #f7f7f7;
+    position: relative;
+   
+    
+}
+
+   
+.imagem {
+    float:left;
+    padding-left: 43px;
+    padding-right: 40px;
+}
+.textm {
+    float: left;
+    width: 380px;
+    height: 98px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+-header h4{
+    float: left;
+     margin: 0;
+    color: #3070a8
+        
+}
+-header span {
+    float:right;
+    color: #3070a8;
+}
+-header {
+ overflow: hidden;
+border-bottom: dashed 1px #3070a8;
+    padding: 10px; 
+}
+.inlineg,
+.inlinem {
+    display: inline-block;
+}
+h4:before {
+    content: " - "
+}
+p {
+padding: 5px;
+}/*
