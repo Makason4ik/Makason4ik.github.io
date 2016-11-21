@@ -86,9 +86,11 @@ input {
 
 .soft {
       display: inline-block;
+   
 }
 .soft h3 {
     text-align: center;
+    padding-left: 150px;
     padding-top: 68px;
     font-size: 30px;
     font-weight: 700;
@@ -99,7 +101,8 @@ div.protect{
     float: left;
     padding-top: 78px;
     text-align: center;
-    padding-left: 275px;
+    padding-left: 170px;
+    padding-bottom: 52px;
     
 }
 div.protect span {
@@ -109,22 +112,55 @@ div.protect span {
     font-size: 30px;
     color: #3070a8;
     text-transform: uppercase;
+    line-height: 56px;
+    
 }
 div.protect p {
     width: 304px;
     height: 111px;
     text-align: center;
+    font-size: 14px;
 }
-
+div.alert{
+    float: left;
+    padding-top: 78px;
+    text-align: center;
+    padding-left: 100px;
+}
 div.alert span{
     width: 83px;    
     height: 21px;
     color: #3070a8;
     font-size: 30px;
     text-transform: uppercase;
+    line-height: 56px;
 }
 div.alert p {
+    width: 304px;
+    height: 111px;
+    text-align: center;
+    font-size: 14px;
     
+}
+div.detect{
+    float: left;
+    padding-top: 78px;
+    text-align: center;
+    padding-left: 100px;
+}
+div.detect span{
+    width: 83px;    
+    height: 21px;
+    color: #3070a8;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 56px;
+}
+div.detect p {
+    width: 304px;
+    height: 111px;
+    text-align: center;
+    font-size: 14px;
 }
 
     
