@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-header {
+header.company {
     height: 116px;
 }
 
@@ -85,9 +85,9 @@ input {
 }
 
 .soft {
-      display: inline-block;
-   
+    display: inline-block;
 }
+
 .soft h3 {
     text-align: center;
     padding-left: 150px;
@@ -97,14 +97,14 @@ input {
     text-transform: uppercase;
 }
 
-div.protect{
+div.protect {
     float: left;
     padding-top: 78px;
     text-align: center;
     padding-left: 170px;
     padding-bottom: 52px;
-    
 }
+
 div.protect span {
     width: 126px;
     height: 21px;
@@ -113,49 +113,54 @@ div.protect span {
     color: #3070a8;
     text-transform: uppercase;
     line-height: 56px;
-    
 }
+
 div.protect p {
     width: 304px;
     height: 111px;
     text-align: center;
     font-size: 14px;
 }
-div.alert{
+
+div.alert {
     float: left;
     padding-top: 78px;
     text-align: center;
     padding-left: 100px;
 }
-div.alert span{
-    width: 83px;    
+
+div.alert span {
+    width: 83px;
     height: 21px;
     color: #3070a8;
     font-size: 30px;
     text-transform: uppercase;
     line-height: 56px;
 }
+
 div.alert p {
     width: 304px;
     height: 111px;
     text-align: center;
     font-size: 14px;
-    
 }
-div.detect{
+
+div.detect {
     float: left;
     padding-top: 78px;
     text-align: center;
     padding-left: 100px;
 }
-div.detect span{
-    width: 83px;    
+
+div.detect span {
+    width: 83px;
     height: 21px;
     color: #3070a8;
     font-size: 30px;
     text-transform: uppercase;
     line-height: 56px;
 }
+
 div.detect p {
     width: 304px;
     height: 111px;
@@ -163,18 +168,226 @@ div.detect p {
     font-size: 14px;
 }
 
-    
-
-
 .lorem {
     width: 1400px;
     height: 577px;
     background: url(images/lorem.png);
 }
 
+.lorem h2 {
+    color: #ee8129;
+    width: 720px;
+    height: 85px;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 85px 0 0 187px;
+    color: #ee8129;
+    line-height: 48px;
+}
+
+.lorem p {
+    color: #ffffff;
+    font: italic 23px / 30px OpenSans;
+    padding: 20px 0 0 187px;
+}
+
+.lorem ul li {
+    list-style: none;
+}
+
+.lorem li:first-child {
+    width: 604px;
+    height: 90px;
+    padding: 43px 0 0 246px;
+    line-height: 30px;
+    color: #9d9d9d;
+    font-size: 14px;
+}
+
+.lorem li.blue {
+    width: 604px;
+    height: px;
+    padding: 24px 0 0 246px;
+    ;
+    color: #3070a8;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.lorem li:last-child {
+    width: 604px;
+    height: 74px;
+    padding: 31px 0 0 246px;
+    color: #9d9d9d;
+    font-size: 14px;
+}
+
+.lorem li:before {
+    content: "•";
+    font-size: 150%;
+    position: absolute;
+    left: 207px;
+}
+
 .offers {
     width: 1400px;
-    height: 577px;
+    height: 700px;
+}
+
+.offers h3 {
+    text-align: center;
+    padding: 75px 0 68px 0;
+    text-transform: uppercase;
+    font: 700 30px / 25px 'Trebuchet MS';
+}
+
+.offers .container_left,
+.offers .container,
+.offers .container_right {
+    display: inline-block;
+    float: left;
+    font: 400 24px / 68px 'Trebuchet MS';
+    position: relative;
+}
+
+.offers div.container_left {
+    width: 290px;
+    height: 440px;
+    margin-top: 10px;
+    border: 2px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: gray;
+    margin-right: -5px;
+    margin-left: 254px;
+}
+
+.offers div.container {
+    width: 288px;
+    height: 460px;
+    border: 5px solid #ee8129;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+.offers div.container_right {
+    width: 287px;
+    height: 440px;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: gray;
+    margin-left: -3px;
+}
+
+.offers div.standart {
+    text-align: center;
+    background-color: #37c2d3;
+    color: white;
+}
+
+.offers div.best {
+    text-align: center;
+    color: #ffffff;
+    background-color: #ee8129;
+}
+
+.offers div.ultimate {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1cb79a;
+}
+
+.offers header div.icon {
+    text-align: center;
+    color: #000;
+}
+
+.offers .price {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.offers span.small {
+    font-size: 25px;
+}
+
+.offers span.big {
+    font-size: 72px;
+}
+
+.offers span.mont {
+    font-size: 18px;
+}
+
+.offers ul.listl {
+    list-style: none;
+    width: 257px;
+    height: 135px;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+.offers ul.list {
+    list-style: none;
+    width: 259px;
+    height: 132px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.offers ul.listr {
+    list-style: none;
+    width: 257px;
+    height: 135px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.offers ul li {
+    width: 259px;
+    height: 33px;
+    list-style: none;
+    text-align: left;
+    line-height: 33px;
+    color: gray;
+}
+
+.offers li:before {
+    content: url(images/1.png);
+    padding: 0 15px 0 25px;
+}
+
+.offers input.knopka {
+    width: 253px;
+    height: 38px;
+    background-color: #ee8129;
+    margin: 29px 0 0 17px;
+    color: #fff;
+}
+
+.offers input.bok {
+    width: 253px;
+    height: 38px;
+    background-color: #3371a6;
+    margin: 0 0 0 17px;
+    color: #fff
+}
+
+.offers ul li:nth-child(2n+1) {
+    background-color: #edf5fd;
+}
+
+.offers ul li:nth-child(2n) {
+    background-color: #f5f5f6;
+}
+
+.offers input:hover {
+    color: black;
 }
 
 .what_client_says {
@@ -183,146 +396,80 @@ div.detect p {
     background: url(images/client.png);
 }
 
-
-/*
-
-
-
-div.review  {
-    width: 100%;
+div.review {
     height: 315px;
     background-color: rgba(6, 15, 22, 0.77);
 }
-h3 {
-text-align: center;
-color: #3170a8;
-font: 400 40px / 18px 'Trebuchet MS';
-padding-top: 58px;
-padding-bottom: 51px;
+
+.what_client_says h3 {
+    text-align: center;
+    color: #3170a8;
+    font: 400 40px / 18px 'Trebuchet MS';
+    padding-top: 58px;
+    padding-bottom: 51px;
 }
-span.first {
+
+.what_client_says span.first {
     color: #ee8129;
 }
-.imageg {
-    float:left;
-    padding-left: 250px;
+
+.what_client_says .imageg {
+    float: left;
+    padding-left: 180px;
     padding-right: 40px;
 }
-.textg {
+
+.what_client_says .textg {
     float: left;
     width: 380px;
     height: 98px;
     background-color: #f7f7f7;
     position: relative;
-   
-    
 }
 
-   
-.imagem {
-    float:left;
+.what_client_says .imagem {
+    float: left;
     padding-left: 43px;
     padding-right: 40px;
 }
-.textm {
+
+.what_client_says .textm {
     float: left;
     width: 380px;
     height: 98px;
     background-color: #f7f7f7;
     position: relative;
-}
-header h4{
-    float: left;
-     margin: 0;
-    color: #3070a8
-        
-}
--header span {
-    float:right;
-    color: #3070a8;
-}
--header {
- overflow: hidden;
-border-bottom: dashed 1px #3070a8;
-    padding: 10px; 
-}
-.inlineg,
-.inlinem {
-    display: inline-block;
-}
-h4:before {
-    content: " - "
-}
-p {
-padding: 5px;
-}
-      
-}
-div.review  {
-    width: 100%;
-    height: 315px;
-    background-color: rgba(6, 15, 22, 0.77);
-}
-h3 {
-text-align: center;
-color: #3170a8;
-font: 400 40px / 18px 'Trebuchet MS';
-padding-top: 58px;
-padding-bottom: 51px;
-}
-span.first {
-    color: #ee8129;
-}
-.imageg {
-    float:left;
-    padding-left: 250px;
-    padding-right: 40px;
-}
-.textg {
-    float: left;
-    width: 380px;
-    height: 98px;
-    background-color: #f7f7f7;
-    position: relative;
-   
-    
 }
 
-   
-.imagem {
-    float:left;
-    padding-left: 43px;
-    padding-right: 40px;
-}
-.textm {
+.what_client_says header h4 {
     float: left;
-    width: 380px;
-    height: 98px;
-    background-color: #f7f7f7;
-    position: relative;
-}
--header h4{
-    float: left;
-     margin: 0;
-    color: #3070a8
-        
-}
--header span {
-    float:right;
+    margin: 5px;
     color: #3070a8;
+    margin: -10px;
+    font-style: italic;
 }
--header {
- overflow: hidden;
-border-bottom: dashed 1px #3070a8;
-    padding: 10px; 
+
+.what_client_says header span {
+    float: right;
+    margin: -10px;
+    color: #3070a8;
+    font-style: italic;
 }
-.inlineg,
-.inlinem {
+
+.what_client_says header {
+    padding: 15px;
+    border-bottom: dashed 1px #3070a8;
+}
+
+.what_client_says .inlineg,
+.what_client_says .inlinem {
     display: inline-block;
 }
-h4:before {
+
+.what_client_says h4:before {
     content: " - "
 }
-p {
-padding: 5px;
-}/*
+
+.what_client_says p {
+    padding: 5px;
+}
