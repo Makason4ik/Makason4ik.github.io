@@ -1,0 +1,44 @@
+.arrow {
+    position: relative;
+    margin: 0 auto;
+    background-color: orange;
+    width: 60%;
+    min-width: 800px;
+     max-width: 940px;
+}
+.search input:first-child {
+    height: 30px;
+    width: 86%;
+    border: 1px solid gray;
+    margin: 5px;
+    min-width: 600px;
+    max-width: 940px;
+}
+input.sub {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    
+}
+.arrow:after {
+    content: ""; 
+    position: absolute;
+    right: -52px;
+    top: -1px;
+    border: 32px solid transparent;
+    border-left: 20px solid orange;
+}
+.check {
+    position: relative;
+    padding: 0;
+    margin: 2px 5px;
+      }
+span {
+    
+    position: absolute;
+    margin-top: -3px;
+    font-size: 16px;
+  
+}

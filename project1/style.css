@@ -473,3 +473,73 @@ div.review {
 .what_client_says p {
     padding: 5px;
 }
+.map{
+    width: 1400px;
+    height: 345px;
+}
+div.contact ul {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    padding: 50px 256px 0 256px;
+}
+div.contact ul li {
+    font-size: 14px;
+    line-height: 32px;
+    
+    
+}
+li.none {
+    padding: 0 23px;
+}
+li.position:before {
+    content: url(images/position.png);
+    width: 23px;
+    height: 31px;
+    float: left;
+    position: relative;
+    right: 30px
+}
+li.mob:before {
+    content: url(images/mob.png);
+    
+    width: 23px;
+    height: 31px;
+        float: left;
+    position: relative;
+    right: 30px
+}
+li.mail:before {
+    content: url(images/mail.png);
+   width: 23px;
+    height: 31px; 
+    float: left;
+    position: relative;
+    right: 32px;
+    top: 4px;
+}
+
+div.google {
+    float: right;
+}
+.social img {
+    position: relative;
+    right: -240px;
+    top: 18px;
+    padding-right: 10px;
+}
+.copyright {
+    width: 1400px;
+    height: 94px;
+    background-color: #3070a8;
+}
+.copyright p {
+    padding: 20px;
+    text-align: center;
+    color :#fff;
+    font: 400 14px / 30px OpenSans;
+}
+.makason {
+    color: #1d1b1b;
+    font: 700 14px / 30px OpenSans;
+}
