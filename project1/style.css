@@ -53,7 +53,9 @@ div.menu ul li:hover {
 .skills {
     width: 1400px;
     height: 585px;
-    background: url(images/skills.png);
+    background-image: 
+    url(images/Rectangle-6-copy-2.png),
+    url(images/skills.png);
     text-align: center;
 }
 
@@ -82,6 +84,10 @@ input {
     margin-top: 42px;
     background-color: rgba(238, 129, 41, 0);
     color: #ffffff;
+}
+input:hover {
+    text-shadow: 5px 5px 2px black, 0 0 1em blue;
+    
 }
 
 .soft {
@@ -171,7 +177,10 @@ div.detect p {
 .lorem {
     width: 1400px;
     height: 577px;
-    background: url(images/lorem.png);
+    background-image: 
+        url(images/Rectangle-6-copy-2.png),
+        url(images/lorem.png);  
+   
 }
 
 .lorem h2 {
@@ -193,6 +202,7 @@ div.detect p {
 
 .lorem ul li {
     list-style: none;
+    
 }
 
 .lorem li:first-child {
@@ -208,7 +218,6 @@ div.detect p {
     width: 604px;
     height: px;
     padding: 24px 0 0 246px;
-    ;
     color: #3070a8;
     line-height: 30px;
     font-size: 14px;
@@ -222,12 +231,6 @@ div.detect p {
     font-size: 14px;
 }
 
-.lorem li:before {
-    content: "•";
-    font-size: 150%;
-    position: absolute;
-    left: 207px;
-}
 
 .offers {
     width: 1400px;
@@ -374,8 +377,10 @@ div.detect p {
     width: 253px;
     height: 38px;
     background-color: #3371a6;
-    margin: 0 0 0 17px;
-    color: #fff
+    margin: 11px 0 0 17px;
+    color: #fff;
+    vertical-align: top;
+    
 }
 
 .offers ul li:nth-child(2n+1) {
@@ -425,6 +430,14 @@ div.review {
     height: 98px;
     background-color: #f7f7f7;
     position: relative;
+    border-radius: 5px;
+}
+.what_client_says .textg:before {
+    content: ''; 
+    position: absolute; 
+    left: -20px; bottom: 43px; 
+    border: 10px solid transparent; 
+    border-right: 10px solid #f7f7f7; 
 }
 
 .what_client_says .imagem {
@@ -534,7 +547,7 @@ div.google {
     background-color: #3070a8;
 }
 .copyright p {
-    padding: 20px;
+    padding: 20px 0 0 0 ;
     text-align: center;
     color :#fff;
     font: 400 14px / 30px OpenSans;
